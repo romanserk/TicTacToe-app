@@ -1,0 +1,19 @@
+#gameGrid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 5px;
+    margin: auto;
+    margin-top: 8%;
+    width: 465px;
+    height: 465px;
+    display: none;
+
+    .single-box{
+        height: 150px;
+        width: 150px;
+        font-size: 6rem;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #000000;
+    }
+}

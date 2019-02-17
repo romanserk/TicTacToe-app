@@ -1,0 +1,22 @@
+#gameGrid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+  grid-gap: 5px;
+  margin: auto;
+  margin-top: 8%;
+  width: 465px;
+  height: 465px;
+  display: none;
+}
+
+#gameGrid .single-box {
+  height: 150px;
+  width: 150px;
+  font-size: 6rem;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #000000;
+}
+/*# sourceMappingURL=main.css.map */
