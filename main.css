@@ -1,22 +1,66 @@
+body {
+  background: #f1f1f1;
+}
+
 #gameGrid {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: auto auto auto;
       grid-template-columns: auto auto auto;
-  grid-gap: 5px;
+  padding: 10px;
+  grid-gap: 10px;
   margin: auto;
-  margin-top: 8%;
-  width: 465px;
-  height: 465px;
+  margin-top: 50px;
+  width: 494px;
+  height: 494px;
   display: none;
+  background: #ffff;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 10px;
 }
 
 #gameGrid .single-box {
   height: 150px;
   width: 150px;
   font-size: 6rem;
+  color: #7c7c7c;
   border-style: solid;
   border-width: 1px;
   border-color: #000000;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#chooseType {
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #7c7c7c;
+  width: 350px;
+  height: 300px;
+  margin: auto;
+  margin-top: 100px;
+  padding: 30px 20px;
+  text-align: center;
+  background: #ffff;
+}
+
+#chooseType #chooseX {
+  color: #ffff;
+  background: #ac2925;
+  border-radius: 10px;
+  width: 60px;
+  height: 60px;
+  border-color: transparent;
+}
+
+#chooseType #chooseO {
+  color: #ffff;
+  background: #5bc0de;
+  border-radius: 10px;
+  width: 60px;
+  height: 60px;
+  border-color: transparent;
 }
 /*# sourceMappingURL=main.css.map */
